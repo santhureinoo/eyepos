@@ -9,7 +9,11 @@
         "prod": "npm run production",
         "production": "mix --production",
         "build-calculated-field": "cd nova-components/CalculatedField && npm run dev",
-        "build-calculated-field-prod": "cd nova-components/CalculatedField && npm run prod"
+        "build-calculated-field-prod": "cd nova-components/CalculatedField && npm run prod",
+        "post-update-cmd": [
+            "php artisan optimize",
+            "php artisan migrate --seed"
+        ]   
     },
     "devDependencies": {
         "@babel/preset-react": "^7.13.13",
