@@ -213,7 +213,7 @@
         <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
             <div class="ml-4 text-center text-sm text-gray-500 sm:ml-0">
                 {{ env('APP_NAME') }}
-                <br> MVP (#{{ version_app() }})
+                {{-- <br> MVP (#{{ version_app() }}) --}}
                 <br>
                 @if(\Illuminate\Support\Facades\App::environment() === 'production')
                     <span class="text-danger">{{ \Illuminate\Support\Facades\App::environment() }}</span>

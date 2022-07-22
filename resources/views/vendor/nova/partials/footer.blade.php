@@ -2,5 +2,5 @@
     <span class="px-1">&middot;</span>
     &copy; {{ date('Y') }} EyesPOS.
     <span class="px-1">&middot;</span>
-    v{{ version_app() }}
+    {{-- v{{ version_app() }} --}}
 </p>
