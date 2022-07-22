@@ -33,13 +33,13 @@
         "saumini/count": "^1.0",
         "sentry/sentry-laravel": "^2.10",
         "spatie/laravel-ray": "^1.26",
+        "fakerphp/faker": "^1.9.1",
         "yassi/nova-nested-form": "^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
         "barryvdh/laravel-ide-helper": "^2.10",
         "facade/ignition": "^2.5",
-        "fakerphp/faker": "^1.9.1",
         "laravel/breeze": "^1.4",
         "laravel/sail": "^1.0.1",
         "laravel/telescope": "^4.6",
