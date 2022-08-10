@@ -34,7 +34,8 @@
         "sentry/sentry-laravel": "^2.10",
         "spatie/laravel-ray": "^1.26",
         "fakerphp/faker": "^1.9.1",
-        "yassi/nova-nested-form": "^3.0"
+        "yassi/nova-nested-form": "^3.0",
+        "ext-intl": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
